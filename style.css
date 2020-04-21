@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700&display=swap');
 
 :root {
-   --br: 1;
+   --border-radius: 1px;
+   --border-radius2: 1px;
+   --border-radius3: 1px;
+   --border-radius4: 1px;
 }
 
 *{
@@ -32,7 +35,7 @@ header h1 {
     margin: 0 auto;
     border: 2px solid;
     color: white;
-    border-radius: 1;
+    border-radius: var(--border-radius) var(--border-radius2) var(--border-radius3) var(--border-radius4);
 }
 
 .box #box-text {
