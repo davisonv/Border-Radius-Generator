@@ -30,7 +30,7 @@ header h1 {
 
 .box {
     padding: 100px;
-    width: 300px;
+    width: 28%;
     height: 50px;
     margin: 0 auto;
     border: 2px solid;
@@ -46,18 +46,29 @@ header h1 {
 #inputs {
     display: grid;
     grid-template-columns: 4fr;
-    margin: 18 590;
-    width: 28px;
+    margin: 18 auto;
+    width: auto;
     border-radius: 5%;
 }
 
 #inputs #right {
-    margin-top: 4px;
-    margin-bottom: 4px;
+  margin: 1 auto;
+    width: 150px;
 }
 
 #inputs #bottom  {
-    margin-bottom: 4px;
+    margin: 1 auto;
+    width: 150px;
+}
+
+#inputs #top  {
+    margin: 1 auto;
+    width: 150px;
+}
+
+#inputs #left  {
+    margin: 1 auto;
+    width: 150px;
 }
 
 
