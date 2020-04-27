@@ -1,3 +1,5 @@
+//import { unicFillException } from './Exceptions'
+
 var root = document.documentElement;
 var form = document.getElementById('inputs');
 var campo1 = document.getElementById('top');
@@ -15,7 +17,23 @@ form.addEventListener('submit', function(e) {
     root.style.setProperty('--border-radius3', `${campo3.value}px`);
     root.style.setProperty('--border-radius4', `${campo4.value}px`);
 
-   if(campo1.value !=0 & campo2.value == 0 & campo3.value == 0 & campo4.value == 0) { 
+
+
+    unicFillException(campo1,campo2,campo3,campo4)
+    
+   
+
+    
+
+    document.getElementById("box-text").innerText = `border-radius: ${campo1.value}px ${campo2.value}px
+    ${campo3.value}px ${campo4.value}px;`
+});
+
+
+
+
+function unicFillException (campo1,campo2,campo3,campo4) {
+    if(campo1.value !=0 & campo2.value == 0 & campo3.value == 0 & campo4.value == 0) { 
         var count = 2
         while (count < 5) {  
             root.style.setProperty(`--border-radius${count}`, `${campo1.value}px`)
@@ -67,13 +85,7 @@ form.addEventListener('submit', function(e) {
             }
         }
     }
-
-    
-
-    document.getElementById("box-text").innerText = `border-radius: ${campo1.value}px ${campo2.value}px
-    ${campo3.value}px ${campo4.value}px;`
-});
-
+}
 
 
 
