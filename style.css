@@ -29,9 +29,12 @@ header h1 {
 }
 
 .box {
-    padding: 100px;
-    width: 28%;
-    height: 50px;
+    padding-top: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 80px;
+    width: 30%;
+    height: 15%;
     margin: 0 auto;
     border: 1px solid;
     color: white;
