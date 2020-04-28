@@ -38,13 +38,29 @@ header h1 {
     border-radius: var(--border-radius1) var(--border-radius2) var(--border-radius3) var(--border-radius4);
 }
 
-.box #box-text {
+#box-text {
     text-align: left;
     height: 100%;
     width: 100%;
     border: 1px solid;
     background-color: white;
     color: rgb(94, 94, 94);
+}
+
+#copy-btn {
+    background-color: rgb(71, 57, 77);
+    padding-left: 40%;
+}
+
+.material-icons {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    margin: 7px;
+}
+
+.material-icons:hover {
+    color:  rgb(184, 41, 212);
+    transition: color 700ms;
 }
 
 #inputs {
