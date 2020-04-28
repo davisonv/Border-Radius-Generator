@@ -35,7 +35,7 @@ header h1 {
     padding-bottom: 80px;
     width: 30%;
     height: 15%;
-    margin: 0 auto;
+    margin: 20 auto;
     border: 1px solid;
     color: white;
     border-radius: var(--border-radius1) var(--border-radius2) var(--border-radius3) var(--border-radius4);
